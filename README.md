@@ -69,6 +69,10 @@ Severity policy: `1–2` routine (stored, not posted) · `3` notable · `4–5` 
 | `docs/NIMBLE.md` | How Nimble is used for scraping. |
 | `docs/ARCHITECTURE.md` | Deeper pipeline notes. |
 
+## Run it yourself / in Claude Code
+
+See **[RUNNING.md](RUNNING.md)** for a local/Claude Code quickstart (portable path: Nimble + Anthropic keys, no Kylon needed).
+
 ## Running the pipeline
 
 Requires these environment variables (secrets, never committed):
