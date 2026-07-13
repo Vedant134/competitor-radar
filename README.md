@@ -7,6 +7,8 @@ to the team — with a live dashboard for demos.
 
 Built on the Kylon agent workspace. Submitted for the AGTGTM hackathon.
 
+> **The agent team (Scout, Collector, Memory, 4 Analysts, Strategist, Playbook) is documented in [`docs/AGENTS.md`](docs/AGENTS.md).**
+
 ---
 
 ## What it does
@@ -63,6 +65,7 @@ Severity policy: `1–2` routine (stored, not posted) · `3` notable · `4–5` 
 | `radar-pipeline/run_daily.py` | Orchestrator: Scout → Collector → Analysts → Strategist → Playbook, persistence, channel posting, per-day idempotency. |
 | `radar-pipeline/analyze.py` | Pure fetch + analyze (Nimble + Claude, no workspace dependency). Reusable/testable in isolation. |
 | `dashboard/` | Next.js dashboard: one screen with a severity-badged card per competitor (latest brief, playbook, source signals). |
+| `docs/AGENTS.md` | The agent team: every agent's role, prompt, inputs, and outputs. |
 | `docs/NIMBLE.md` | How Nimble is used for scraping. |
 | `docs/ARCHITECTURE.md` | Deeper pipeline notes. |
 
