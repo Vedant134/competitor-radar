@@ -1,0 +1,122 @@
+[
+  {
+    "id": "opp_1001",
+    "createdAt": "2026-05-08T08:20:00.000Z",
+    "updatedAt": "2026-06-07T11:28:00.000Z",
+    "data": {
+      "title": "Atlas expansion readiness",
+      "stage": "commit",
+      "priority": "p0",
+      "owner": ["u_chen", "u_ng"],
+      "region": "apac",
+      "amount": 184000,
+      "confidence": 0.82,
+      "close_date": "2026-06-14",
+      "enterprise": true,
+      "source_url": "https://app.kylon.io/channel/demo/thread/table_row/source_row_1001",
+      "contact_email": "ops@example.com",
+      "attachments": [{ "id": "file_01", "fileName": "mutual-action-plan.pdf", "contentType": "application/pdf" }],
+      "customer": { "id": "customer_atlas", "label": "Atlas Group" }
+    }
+  },
+  {
+    "id": "opp_1002",
+    "createdAt": "2026-05-11T05:40:00.000Z",
+    "updatedAt": "2026-06-05T03:15:00.000Z",
+    "data": {
+      "title": "Northstar data residency",
+      "stage": "proposal",
+      "priority": "p1",
+      "owner": ["u_rahman"],
+      "region": "emea",
+      "amount": 98000,
+      "confidence": 0.54,
+      "close_date": "2026-06-20",
+      "enterprise": true,
+      "source_url": "https://app.kylon.io/channel/demo/thread/table_row/source_row_1002",
+      "contact_email": "procurement@example.com",
+      "attachments": [{ "id": "file_02", "fileName": "security-questionnaire.xlsx", "contentType": "application/vnd.ms-excel" }],
+      "customer": { "id": "customer_northstar", "label": "Northstar Systems" }
+    }
+  },
+  {
+    "id": "opp_1003",
+    "createdAt": "2026-05-19T09:10:00.000Z",
+    "updatedAt": "2026-06-06T16:03:00.000Z",
+    "data": {
+      "title": "Keystone logistics control tower",
+      "stage": "solution",
+      "priority": "p1",
+      "owner": ["u_sato", "u_chen"],
+      "region": "na",
+      "amount": 126000,
+      "confidence": 0.46,
+      "close_date": "2026-06-23",
+      "enterprise": false,
+      "source_url": "https://app.kylon.io/channel/demo/thread/table_row/source_row_1003",
+      "contact_email": "sponsor@example.com",
+      "attachments": [],
+      "customer": { "id": "customer_keystone", "label": "Keystone Logistics" }
+    }
+  },
+  {
+    "id": "opp_1004",
+    "createdAt": "2026-05-22T01:24:00.000Z",
+    "updatedAt": "2026-06-03T14:21:00.000Z",
+    "data": {
+      "title": "Meridian executive dashboard",
+      "stage": "qualified",
+      "priority": "p2",
+      "owner": ["u_ng"],
+      "region": "apac",
+      "amount": 42000,
+      "confidence": 0.32,
+      "close_date": "2026-06-09",
+      "enterprise": false,
+      "source_url": "https://app.kylon.io/channel/demo/thread/table_row/source_row_1004",
+      "contact_email": "analytics@example.com",
+      "attachments": [{ "id": "file_03", "fileName": "usage-snapshot.csv", "contentType": "text/csv" }],
+      "customer": { "id": "customer_meridian", "label": "Meridian Retail" }
+    }
+  },
+  {
+    "id": "opp_1005",
+    "createdAt": "2026-05-25T10:00:00.000Z",
+    "updatedAt": "2026-06-08T09:07:00.000Z",
+    "data": {
+      "title": "Helio service health migration",
+      "stage": "commit",
+      "priority": "p0",
+      "owner": ["u_rahman", "u_sato"],
+      "region": "emea",
+      "amount": 212000,
+      "confidence": 0.76,
+      "close_date": "2026-07-02",
+      "enterprise": true,
+      "source_url": "https://app.kylon.io/channel/demo/thread/table_row/source_row_1005",
+      "contact_email": "platform@example.com",
+      "attachments": [{ "id": "file_04", "fileName": "architecture-review.png", "contentType": "image/png" }],
+      "customer": { "id": "customer_helio", "label": "Helio Energy" }
+    }
+  },
+  {
+    "id": "opp_1006",
+    "createdAt": "2026-05-28T12:31:00.000Z",
+    "updatedAt": "2026-06-02T06:50:00.000Z",
+    "data": {
+      "title": "Bluewater renewal automation",
+      "stage": "solution",
+      "priority": "p2",
+      "owner": ["u_chen"],
+      "region": "na",
+      "amount": 64000,
+      "confidence": 0.41,
+      "close_date": "2026-07-09",
+      "enterprise": false,
+      "source_url": "https://app.kylon.io/channel/demo/thread/table_row/source_row_1006",
+      "contact_email": "revenue@example.com",
+      "attachments": [],
+      "customer": { "id": "customer_bluewater", "label": "Bluewater Health" }
+    }
+  }
+]

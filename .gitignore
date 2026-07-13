@@ -1,0 +1,17 @@
+# dependencies
+node_modules/
+.pnpm-store/
+
+# next.js
+dashboard/.next/
+dashboard/out/
+dashboard/generated/
+
+# env / secrets — NEVER commit
+.env
+.env.*
+*.key
+
+# os / editor
+.DS_Store
+*.log

@@ -1,0 +1,14 @@
+-- Demo seed data matching data/opportunities.seed.json (the no-database demo
+-- dataset). Replace with the real app's initial data, or delete this file for
+-- apps that start empty. Seeds are migrations: the journal applies them exactly
+-- once per database, so production keeps user data on later publishes.
+
+INSERT INTO app_opportunities
+  (id, created_at, updated_at, title, stage, priority, owner, region, amount, confidence, close_date, enterprise, source_url, contact_email, attachments, customer)
+VALUES
+  ('opp_1001', '2026-05-08 08:20:00', '2026-06-07 11:28:00', 'Atlas expansion readiness', 'commit', 'p0', '["u_chen","u_ng"]', 'apac', 184000, 0.82, '2026-06-14', TRUE, 'https://app.kylon.io/channel/demo/thread/table_row/source_row_1001', 'ops@example.com', '[{"id":"file_01","fileName":"mutual-action-plan.pdf","contentType":"application/pdf"}]', '{"id":"customer_atlas","label":"Atlas Group"}'),
+  ('opp_1002', '2026-05-11 05:40:00', '2026-06-05 03:15:00', 'Northstar data residency', 'proposal', 'p1', '["u_rahman"]', 'emea', 98000, 0.54, '2026-06-20', TRUE, 'https://app.kylon.io/channel/demo/thread/table_row/source_row_1002', 'procurement@example.com', '[{"id":"file_02","fileName":"security-questionnaire.xlsx","contentType":"application/vnd.ms-excel"}]', '{"id":"customer_northstar","label":"Northstar Systems"}'),
+  ('opp_1003', '2026-05-19 09:10:00', '2026-06-06 16:03:00', 'Keystone logistics control tower', 'solution', 'p1', '["u_sato","u_chen"]', 'na', 126000, 0.46, '2026-06-23', FALSE, 'https://app.kylon.io/channel/demo/thread/table_row/source_row_1003', 'sponsor@example.com', '[]', '{"id":"customer_keystone","label":"Keystone Logistics"}'),
+  ('opp_1004', '2026-05-22 01:24:00', '2026-06-03 14:21:00', 'Meridian executive dashboard', 'qualified', 'p2', '["u_ng"]', 'apac', 42000, 0.32, '2026-06-09', FALSE, 'https://app.kylon.io/channel/demo/thread/table_row/source_row_1004', 'analytics@example.com', '[{"id":"file_03","fileName":"usage-snapshot.csv","contentType":"text/csv"}]', '{"id":"customer_meridian","label":"Meridian Retail"}'),
+  ('opp_1005', '2026-05-25 10:00:00', '2026-06-08 09:07:00', 'Helio service health migration', 'commit', 'p0', '["u_rahman","u_sato"]', 'emea', 212000, 0.76, '2026-07-02', TRUE, 'https://app.kylon.io/channel/demo/thread/table_row/source_row_1005', 'platform@example.com', '[{"id":"file_04","fileName":"architecture-review.png","contentType":"image/png"}]', '{"id":"customer_helio","label":"Helio Energy"}'),
+  ('opp_1006', '2026-05-28 12:31:00', '2026-06-02 06:50:00', 'Bluewater renewal automation', 'solution', 'p2', '["u_chen"]', 'na', 64000, 0.41, '2026-07-09', FALSE, 'https://app.kylon.io/channel/demo/thread/table_row/source_row_1006', 'revenue@example.com', '[]', '{"id":"customer_bluewater","label":"Bluewater Health"}');
